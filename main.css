@@ -1,0 +1,138 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: normal;
+    color: rgb(177, 185, 194);
+}
+
+body, input, textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: rgb(177, 185, 194);
+}
+
+header {
+    padding: 16px 50px;
+    background-color: rgb(0, 4, 58);
+    color: rgb(177, 185, 194);
+    font-size: 19px;
+}
+
+body {
+    background-color: rgb(47, 42, 85);
+}
+
+header nav li a {
+    padding-top: 8px;
+    color: rgb(177, 185, 194);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header  li h2 {
+    padding-top: 8px;
+    color: rgb(177, 185, 194);
+    text-decoration: none;
+    font-size: 250px;
+}
+
+.conteiner {
+    max-width: 1270px;
+    color: rgb(177, 185, 194);
+}
+
+header .conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-lists li {
+    margin-left: 350px;
+    margin-right: 150px;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: rgb(42, 42, 48);
+    color: rgb(177, 185, 194);
+    padding: 16px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.store-font {
+    margin-right: 32px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .conteiner {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: rgb(63, 63, 105);
+    color: rgb(177, 185, 194);
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(75, 243, 33);
+}
+
+input:focus, textarea:focus {
+    outline-color: rgb(42, 42, 48);
+}
